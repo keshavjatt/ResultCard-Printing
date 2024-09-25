@@ -50,7 +50,7 @@
 }
 
 .marks-table td {
-  padding: 15px;
+  padding: 2px;
 }
 
 .marks-table thead {
@@ -90,4 +90,10 @@
 .results-row p {
   margin: 0;
   /* Optional: Removes default margin from p elements */
+}
+
+@media print {
+  .certificate-container {
+    margin-top: 90px;  /* Adjust the value to increase/decrease top margin */
+  }
 }
