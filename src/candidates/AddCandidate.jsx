@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function AddCandidate() {
     const [formData, setFormData] = useState({
         stu_name: "Mohit Saini",
-        fath_name: "Jaswant Kumar Saini",
+        fath_name: "Jaswant Saini",
         course: "B Tech",
         centre: "IGCSM",
         roll_no: "20090",
